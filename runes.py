@@ -6,6 +6,12 @@ import string
 
 # def
 
+  #called for char in giant string that is every single page:
+#def charReplace(table, place in string/cjaracter)
+  #if char is in table column one
+    #return char in column two
+  #else return char
+
 table = [
   ["ᚠ", "F"], 
   ["ᚢ", "V"],
@@ -19,7 +25,7 @@ table = [
   ["ᚾ", "N"],
   ["ᛁ", "I"],
   ["ᛂ", "J"],
-  ["ᛇ", "3"],
+  ["ᛇ", "$"],
   ["ᛈ", "P"],
   ["ᛉ", "X"],
   ["ᛋ", "S"],
@@ -35,7 +41,7 @@ table = [
   ["ᚫ", "@"],
   ["ᚣ", "Y"],
   ["ᛡ", "!"],
-  ["ᛠ", "4"],
+  ["ᛠ", "+"],
   ["•", " "]
 ]
 
