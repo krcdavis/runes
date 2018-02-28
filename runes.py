@@ -1,5 +1,9 @@
 import string
 
+#####
+# Convert Liber Primus transcription from runes to single-character-per-rune ASCII
+#####
+
 # def
 
 table = [
@@ -31,7 +35,8 @@ table = [
   ["ᚫ", "@"],
   ["ᚣ", "Y"],
   ["ᛡ", "!"],
-  ["ᛠ", "4"]
+  ["ᛠ", "4"],
+  ["•", " "]
 ]
 
 liber_primus = """ᚣᛖᛝᚳ•ᚦᛂᚷᚫ•ᚠᛂᛟ•
